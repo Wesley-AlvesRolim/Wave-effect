@@ -132,6 +132,11 @@ a:hover {
 }
 
 .content .content-text {
+    display: none;
+}
+
+.content .content-text.active {
+    display: block;
     margin-top: 25px;
     display: flex;
     flex-flow: column wrap;
