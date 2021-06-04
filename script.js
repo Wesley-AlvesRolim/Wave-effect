@@ -2,6 +2,7 @@ const audio = document.querySelector('audio')
 const p = document.querySelector('.text-block');
 const form = document.querySelector('form');
 const input = document.querySelector('input');
+const contentText = document.querySelector('.content-text');
 
 audio.volume = .3;
 
@@ -10,6 +11,7 @@ function showText(e) {
 
     const input = document.querySelector('input');
     p.innerHTML = input.value.replace(/\S/g, '<span class="text">$&</span>');
+    contentText.classList.add('active')
     form.remove();
     p.insertAdjacentHTML('afterEnd', '<a href="/">Voltar</a>');
     activeAnimation();
