@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     color: var(--black);
 }
 
@@ -33,7 +34,7 @@ video {
 
 .content {
     height: 70%;
-    max-height: 350px;
+    max-height: 425px;
     min-width: 50%;
     padding: 10px;
     background-color: #ffffff2e;
@@ -130,11 +131,23 @@ a:hover {
     cursor: pointer;
 }
 
+.content .content-text {
+    margin-top: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-block {
+    line-height: 4em;
+}
+
 .text {
     font-size: 2.5em;
     display: inline-block;
     transform: translateY(0px);
-    transition: transform .1s;
+    transition: transform .5s ease-out;
     letter-spacing: 3px;
 }
 
@@ -161,7 +174,7 @@ a:hover {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -204,7 +217,7 @@ a:hover {
     fill: #eee;
     filter: opacity(.5);
     transition: .5s ease;
-    box-shadow: 0 0 2px var(--black);
+    box-shadow: 0 0 3px var(--black);
 }
 
 .social-media svg:hover {
