@@ -1,10 +1,19 @@
-const audio = document.querySelector('audio')
 const p = document.querySelector('.text-block');
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 const contentText = document.querySelector('.content-text');
 
-audio.volume = .3;
+function loadingMedia() {
+    const audio = document.querySelector('audio')
+    const video = document.querySelector('video')
+    audio.src = 'https://soundbible.com/mp3/Beach%20Waves-SoundBible.com-1024681188.mp3'
+    audio.volume = .3;
+    audio.autoplay = true;
+    audio.loop = true;
+    video.src = 'https://static.videezy.com/system/resources/previews/000/047/703/original/36.mp4'
+    video.autoplay = true;
+    video.loop = true;
+}
 
 function showText(e) {
     e.preventDefault();
@@ -30,6 +39,8 @@ function activeAnimation() {
     })
 }
 
+
+window.addEventListener('load', loadingMedia)
 document.addEventListener('submit', showText)
 input.addEventListener('focus', () => {
     input.addEventListener('input', () => {
