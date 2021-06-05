@@ -21,7 +21,7 @@
 ## 💻 Project
 
 
-<p>This application assists in your expenses like the shopping cart.</p>
+<p>This app you can see a text with wave effect.</p>
 
 <br>
 <img src="./Assets/Images/Readme.gif" alt="Readme Gif">
