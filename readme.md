@@ -27,7 +27,7 @@
 <img src="./Assets/Images/Readme.gif" alt="Readme Gif">
 <br>
 <br>
-<p>To go into the app click <strong><a href="https://wave-effect-wesley.netlify.app/">here.</a></strong></p>
+<p>To go into the app click <strong><a href="https://wave-effect.vercel.app/">here.</a></strong></p>
 
 ## 🚀 Technologies
 
