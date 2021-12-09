@@ -1,3 +1,4 @@
+/* Criação de variaveis*/
 const p = document.querySelector('.text-block');
 const form = document.querySelector('form');
 const input = document.querySelector('input');
